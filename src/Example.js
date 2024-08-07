@@ -1,9 +1,10 @@
 import { View, Text } from 'react-native'
 import React from 'react'
-import Test1 from './src/Test1';
 
-export default function App() {
+export  function Example() {
   return (
-  <Test1 />
+    <View>
+      <Text>Example</Text>
+    </View>
   )
 }
